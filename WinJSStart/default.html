@@ -5,15 +5,17 @@
     <title>WinJSStart</title>
 
     <!-- WinJS references -->
-    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <link href="WinJS/css/ui-light.css" rel="stylesheet" />
     <script src="WinJS/js/base.js"></script>
     <script src="WinJS/js/ui.js"></script>
 
     <!-- WinJSStart references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
+    <script src="navigator.js"></script>
+
 </head>
 <body class="win-type-body">
-    <p>Content goes here</p>
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{page1: 'page1.html'}"></div> 
 </body>
 </html>
